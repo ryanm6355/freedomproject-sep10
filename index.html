@@ -35,15 +35,6 @@
               color: purple !important;
               background-color: thistle !important;
           }
-          .accordion-button:focus{
-              border-color: purple !important;
-              box-shadow: 0 0 0 0.25rem darkorchid !important;
-          
-          }
-          .accordion-button{
-              color: purple !important;
-              background-color: thistle !important;
-          }
         </style>
         
         <title>Title</title>
@@ -58,10 +49,10 @@
             <div id="carouselslides" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-            <img src="Animation.jpg" class="d-block l-696" style="margin: auto">
+            <img src="Animation.jpg" class="d-block l-696 img-fluid" style="margin: auto">
             </div>
             <div class="carousel-item">
-                <img src="skeletal-animation.jpg" class="d-block 1-696" style="margin: auto">
+                <img src="skeletal-animation.jpg" class="d-block 1-696 img-fluid" style="margin: auto">
             </div>
             </div>
             </div>
@@ -84,7 +75,9 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
                     <div class="accordion-body" id="text">
-                        <img src="rig_workspace.png" height=200px>
+                        <div class="text-center">
+                        <img src="rig_workspace.png" height=200px width=325px>
+                        </div
                         <p>This application allowed for 2d puppets made from either Adobe Photoshop or Adobe Illustrator to be controlled and animated through motion capture and could even be used live. While the app received criticism for it’s overall animation quality, Character Animator would become more popular in 2016 after big TV shows like <a href="https://youtu.be/Bz0ShKbYOuw">The Simpsons</a> and <a href="https://youtu.be/DREO6cwbGeQ">The Colbert Show</a> used it for Live TV.</p><p>(Sources: <a href="https://en.wikipedia.org/wiki/Adobe_Character_Animator">Wikipedia</a>, <a href="https://stampede.studio/technologies-animated-content/">Stampede</a>[Note: This source is likely no longer accesible])<p>
                     </div>
                 </div>
@@ -111,7 +104,7 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
                 <div class="accordion-body" id="text">
                     <img src="VRExample1.jpg" height=200px>
-                    <img src="VRExample2.jpg" height=200px>
+                    <img src="VRExample2.jpg" height=200px width=300px class="text-center">
                     <p>While there’s nothing new about Virtual Reality, what is new is how it is being used in Virtual Production, which uses real-time 3D to allow directors to see how a scene using VFX will look in post and see if it’s good enough. Although this technology was first used in an earlier form for Sports and Weather reports, it would later be used in movies like The Lion King with VR to visualize fully CG sets.</p>
                     <p>(Sources: <a href="https://www.nyfa.edu/student-resources/2020-major-trends-animation/">Article from the NYFA</a>)</p>
                 </div>
